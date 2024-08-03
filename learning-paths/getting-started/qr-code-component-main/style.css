@@ -8,8 +8,7 @@ body {
     display: grid;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    gap: 0px 24px 0px;
+    height: 99vh;
 }
 
 .card {
