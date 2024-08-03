@@ -42,11 +42,8 @@ body {
     color: #1F314F;
     text-align: center;
     font-feature-settings: 'liga' off, 'clig' off;
-    /* text-preset-1 */
     font-size: 22px;
     font-style: normal;
-    /* width: 100%;
-    height: auto; */
     font-weight: 700;
     line-height: 120%; /* 26.4px */
     
@@ -60,6 +57,6 @@ body {
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
-    line-height: 140%; /* 21px */
+    line-height: 140%; 
     letter-spacing: 0.2px;
 }
