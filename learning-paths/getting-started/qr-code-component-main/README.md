@@ -30,7 +30,7 @@ I plan on continuing to use CSS Grid. Once I refresh myself on the CSS basics I'
 
 ### Useful resources
 
-- [Example resource 1](https://cssgridgarden.com/) - CSS Grid Garden is a bunch of mini games using CSS Grid. Was a great way to refresh what i've forgotten about CSS Grid.
+- [CSS Grid Garden](https://cssgridgarden.com/) - CSS Grid Garden is a bunch of mini games using CSS Grid. Was a great way to refresh what i've forgotten about CSS Grid.
 
 ## Follow Me
 
