@@ -1,0 +1,44 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# System files 
+.DS_Store      
+Thumbs.db      
+
+# Temporary files
+tmp/
+temp/
+
+# Build artifacts
+dist/
+build/
+
+# IDE/Editor-specific files
+.vscode/
+.idea/
+
+# Environmental variables
+.env
+
+# Design Files
+#####################################################
+## Please do not remove lines 32 and 33 - thanks! 🙂 ##
+#####################################################
+*.sketch
+*.fig
+
+###############################################
+## Please do not remove line 38 - thanks! 🙂 ##
+###############################################
+*.xd
+
+# Others
+*.bak
+
+# Prettier configuration
+.prettierignore
