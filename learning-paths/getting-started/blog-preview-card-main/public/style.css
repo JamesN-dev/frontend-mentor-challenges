@@ -21,7 +21,7 @@ body {
     place-items: center;
     min-height: 99vh;
     background-color: hsl(47, 88%, 63%);
-    padding-top: 20vh;
+    padding-top: 15vh;
 }
 
 main.card {
