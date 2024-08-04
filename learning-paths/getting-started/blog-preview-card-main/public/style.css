@@ -20,9 +20,8 @@ body {
     display: grid;
     place-items: center;
     min-height: 99vh;
-    background-color: hsl(47, 88%, 63%)
-
-
+    background-color: hsl(47, 88%, 63%);
+    padding-top: 20vh;
 }
 
 main.card {
@@ -170,3 +169,4 @@ footer {
     .card-content {
         gap: 9px;
     }
+}
