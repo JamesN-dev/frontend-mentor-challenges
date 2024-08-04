@@ -10,15 +10,12 @@
     font-variation-settings: "wght" 300 900;
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
-
 body {
     height: 100%;
     margin: 0;
     display: grid;
     place-items: center;
-    height: 99vh;
+    min-height: 99vh;
     background-color: hsl(47, 88%, 63%)
 
 
@@ -109,6 +106,26 @@ main.card {
 }
 
 footer {
-    height: 50px;
-    border: 1px solid hsl(0, 0%, 7%);
+    text-align: center;
+    align-self: end;
+    padding-bottom: 45px;
+}
+
+.attribution { 
+    font-family: 'Figtree';
+    font-weight: 500;
+    font-size: 11px; 
+    text-align: center;
+    font-variation-settings: 
+      'MIDL' 0, 'CONT' -1000;
+    transition:
+        font-weight 500ms,
+        font-variation-settings 500ms;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.attribution:hover {
+    font-weight: 800;
+    font-variation-settings: 
+      'MIDL' 300, 'CONT' -1000;
 }
