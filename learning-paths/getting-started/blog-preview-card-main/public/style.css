@@ -92,13 +92,18 @@ main.card {
     font-weight: 800;
     line-height: 1.5;
     transition:
-        color 500ms, transform 500ms;
+        color 100ms, transform 500ms;
     transform-origin: left;
 }
 
 .article-title:hover {
-    color: hsl(47, 88%, 63%);
+    color: hsl(47, 34%, 33%);
     transform: scale(1.13);
+}
+
+.article-title:active {
+    color: hsl(47, 88%, 63%);
+    /* transform: scale(1.13); */
 }
 
 .article-description {
