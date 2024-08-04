@@ -23,14 +23,16 @@ body {
 
 main.card {
     font-family: 'Figtree';
-    padding: 24px;
+    padding: 23px;
     border-radius: 20px;
-    gap: 24px;
+    gap: 22px;
     display: grid;
     place-items: center;
     border: 1px solid hsl(0, 0%, 7%);
     background-color: white;
     box-shadow: 8px 8px black;
+    height: 522px;
+    overflow: hidden;
 }
 
 .badge {
@@ -76,8 +78,17 @@ main.card {
 .article-title {
     color: hsl(0, 0%, 7%);
     font-size: 24px;
+    padding: 2px 0;
     font-weight: 800;
-    line-height: 150%;
+    line-height: 1.5;
+    transition:
+        color 500ms, transform 500ms;
+    transform-origin: left;
+}
+
+.article-title:hover {
+    color: hsl(47, 88%, 63%);
+    transform: scale(1.13);
 }
 
 .article-description {
@@ -88,7 +99,7 @@ main.card {
 }
 
 .card-footer {
-    padding-top: 12px;
+    padding-top: 10px;
     display: flex;
     align-items: center;
     gap: 12px
