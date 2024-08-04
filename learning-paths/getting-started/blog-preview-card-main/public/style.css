@@ -1,3 +1,7 @@
+html {
+    font-size: 16px;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -23,15 +27,20 @@ body {
 
 main.card {
     font-family: 'Figtree';
-    padding: 23px;
-    border-radius: 20px;
-    gap: 22px;
+    padding: 1.5rem;
+    border-radius: 1.25rem;
+    gap: 1.35rem;
     display: grid;
     place-items: center;
     border: 1px solid hsl(0, 0%, 7%);
     background-color: white;
-    box-shadow: 8px 8px black;
-    height: 522px;
+    box-shadow: 0.5rem 0.5rem black;
+    width: 100%;
+    min-width: 22.5625rem; 
+    max-width: 24rem; 
+    min-height: 31.875rem; 
+    max-height: 32.625rem; 
+    height: auto;
     overflow: hidden;
 }
 
@@ -58,18 +67,19 @@ main.card {
 }
 
 .header-image {
+    width: 100%;
     border-radius: 15px;
-    width: 336px;
 }
 
 .card-content {
-    width: 336px;
+    width: 100%;
     display: grid;
     place-items: start;
     gap: 12px;
 }
 
 .card-content time {
+    width: 100%;
     font-size: 14px;
     font-weight: 500;
     color: hsl(0, 0%, 7%);
@@ -77,7 +87,7 @@ main.card {
 
 .article-title {
     color: hsl(0, 0%, 7%);
-    font-size: 24px;
+    font-size: 1.5em; /* 24px */
     padding: 2px 0;
     font-weight: 800;
     line-height: 1.5;
@@ -93,9 +103,9 @@ main.card {
 
 .article-description {
     color: hsl(0, 0%, 42%);
-    font-size: 16px;
+    font-size: 1em;;
     font-weight: 500;
-    line-height: 150%;
+    line-height: 1.5;
 }
 
 .card-footer {
@@ -113,13 +123,14 @@ main.card {
 .authors-name {
     font-size: 14px;
     font-weight: 800;
-    line-height: 150%;
+    line-height: 1.5;
 }
 
 footer {
+    display: grid;
     text-align: center;
     align-self: end;
-    padding-bottom: 45px;
+    padding-bottom: 1rem;
 }
 
 .attribution { 
@@ -140,3 +151,4 @@ footer {
     font-variation-settings: 
       'MIDL' 300, 'CONT' -1000;
 }
+
